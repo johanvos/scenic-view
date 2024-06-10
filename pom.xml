@@ -76,6 +76,8 @@
                 <artifactId>maven-jar-plugin</artifactId>
                 <version>3.4.1</version>
                 <configuration>
+                    <finalName>scenicview</finalName>
+                    <outputDirectory>target/scenicview/lib</outputDirectory>
                     <archive>
                         <index>true</index>
                         <manifest>
